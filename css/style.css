@@ -2,9 +2,22 @@
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05),
               0 4px 8px 0 rgba(0, 0, 0, .05);
 }
+
 body {
   padding-top: 76px;
 }
+
 .icon {
   height: 100px;
+}
+
+#home-quote {
+  background: url('../img/bg-quote.jpg') center center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 767px) {
+  #home-quote .display-4 {
+    font-size: 2.5rem;
+  }
 }
