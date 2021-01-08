@@ -118,6 +118,74 @@
             <input type="text" name="cepInput" id="cepInput" placeholder="xxxxx-xxx" class="form-control">
           </div>
         </div>
+        <div class="bg-light box-shadow rounded p-3 form-group">
+          <h2 class="h6 text-primary text-uppercase">Forma de pagamento</h2>
+          <nav class="nav btn-group mb-3" role="tablist" id="formaPagamentoNav" style="display: inline-flex;">
+            <button type="button" class="btn btn-secondary btn-sm active" id="nav-cartao-tab" data-toggle="tab" href="#nav-cartao" role="tab" aria-controls="nav-cartao" aria-selected="true">Cartão de Crédito</button>
+            <button type="button" class="btn btn-secondary btn-sm" id="nav-boleto-tab" data-toggle="tab" href="#nav-boleto" role="tab" aria-controls="nav-boleto" aria-selected="false">Boleto Bancário</button>
+          </nav>
+          <div class="tab-content" id="formaPagamentoConteudo">
+            <div class="tab-pane fade show active" id="nav-cartao" role="tabpanel" aria-labelledby="nav-cartao-tab">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="nomeCartaoInput">Nome no cartão</label>
+                  <input type="text" name="nomeCartaoInput" id="nomeCartaoInput" placeholder="Nome impresso no cartão" class="form-control">
+                </div>
+                <div class="form-group col-6 col-md-3">
+                  <label for="mesInput">Mês</label>
+                  <select name="mesInput" id="mesInput" class="form-control">
+                    <option>Expira mês...</option>
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                    <option>04</option>
+                    <option>05</option>
+                    <option>06</option>
+                    <option>07</option>
+                    <option>08</option>
+                    <option>09</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                  </select>
+                </div>
+                <div class="form-group col-6 col-md-3">
+                  <label for="anoInput">Ano</label>
+                  <select name="anoInput" id="anoInput" class="form-control">
+                    <option>Expira ano...</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
+                    <option>2025</option>
+                    <option>2026</option>
+                    <option>2027</option>
+                    <option>2028</option>
+                    <option>2029</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="numeroCartaoInput">Numero no cartão</label>
+                  <input type="text" name="numeroCartaoInput" id="numeroCartaoInput" placeholder="XXXX XXXX XXXX XXXX" class="form-control">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="codigoSegInput">Código de segurança</label>
+                  <input type="number" name="codigoSegInput" id="codigoSegInput" placeholder="XXX" class="form-control">
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav-boleto" role="tabpanel" aria-labelledby="nav-boleto-tab">
+              <p class="lead">Clique em contratar plano que enviaremos um boleto para o seu e-mail.</p>
+            </div>
+          </div>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" name="" id="" class="form-check-input">
+            Concordo com os <a href="#">Termos e Condições</a>.
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg mt-2">Contratar plano</button>
       </form>
     </div>
   </section>
