@@ -13,6 +13,14 @@
 ---
 
 ## 🔧 Como executar o projeto
+```bash
+# Clone o repositório
+git clone https://github.com/devMagno/caravan
+
+# Entre no diretório
+cd caravan
+```
+Depois disso, utilize uma ferramenta como o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para criar um servidor local e executar o projeto.
 
 ---
 
