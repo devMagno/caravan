@@ -4,6 +4,7 @@
 </p>
 
 ## 📖 Sobre   
+O projeto **Caravan** foi desenvolvido durante o curso de **Bootstrap 4** da **[Origamid](https://www.origamid.com/)** e trata-se de uma página de agência de viagens, composta por quatro páginas diferentes, que exploram diversos componentes do _framework_, como **carrossel**, **navbar**, **botões**, **formulários** simples e complexos, **modal**, **lista acordeão**, **_badges_** e **tabelas**, além de tipografia, imagens, cores, _grid_ e responsividade. Além disso, utilizamos o pré-processador **Sass**, para **otimizar** o CSS final do projeto, eliminando componentes que não foram utilizados e minificando o arquivo final.
 
 ---
 
