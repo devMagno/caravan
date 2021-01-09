@@ -1,4 +1,7 @@
 # Caravan ✈️
+<p align="center">
+<img src="https://i.imgur.com/WKyuayr.png" alt="Caravan" title="Caravan">
+</p>
 
 ## 📖 Sobre   
 
