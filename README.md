@@ -5,7 +5,11 @@
 ---
 
 ## 🚀 Tecnologias e ferramentas utilizadas
-
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **[Bootstrap 4](https://getbootstrap.com/)**
+- **[Sass](https://sass-lang.com/)** e **[Scout App](https://scout-app.io/)** para otimização do código
 ---
 
 ## 🖥️ Demonstração
